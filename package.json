@@ -1,0 +1,43 @@
+{
+  "name": "invitation",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:backend": "nodemon server.js",
+    "start:backend": "node server.js",
+    "start": "node server.js",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.118.0",
+    "canvas-confetti": "^1.9.4",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^4.22.3",
+    "framer-motion": "^14.9.0",
+    "lucide-react": "^1.66.0",
+    "mongodb": "^7.8.0",
+    "mongoose": "^8.24.7",
+    "qrcode.react": "^4.2.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "autoprefixer": "^10.6.2",
+    "nodemon": "^3.1.14",
+    "oxlint": "^1.89.0",
+    "postcss": "^8.5.32",
+    "tailwindcss": "^3.4.17",
+    "typescript": "~7.0.2",
+    "vite": "^8.3.5"
+  }
+}
