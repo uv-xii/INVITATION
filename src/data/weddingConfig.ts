@@ -24,8 +24,8 @@ export const weddingConfig: WeddingConfig = {
         residence: 'Village Sisredi, Post Jaytipur, District Azamgarh',
       },
     },
-    monogram: 'T & S',
-    hashtag: '#TanujWedsSudha',
+    monogram: 'S & T',
+    hashtag: '#SudhaWedsTanuj',
   },
 
   weddingDetails: {
@@ -82,7 +82,7 @@ export const weddingConfig: WeddingConfig = {
       dateShort: '25 Nov',
       venue: 'Shiddhivinayak Marriage Hall, Thekma',
       address: 'Thekma, Uttar Pradesh',
-      description: 'Join us for the wedding ceremony of Tanuj and Sudha.',
+      description: 'Join us for the wedding ceremony of Sudha and Tanuj.',
       googleMapsUrl: 'https://maps.google.com/?q=Shiddhivinayak+Marriage+Hall+Thekma',
       isMainCeremony: true,
       iconName: 'Flame',
@@ -117,15 +117,15 @@ export const weddingConfig: WeddingConfig = {
 
   music: {
     title: 'Wedding Celebration',
-    artist: 'Tanuj & Sudha',
+    artist: 'Sudha & Tanuj',
     audioUrl: '/audio/wedding-background.mp3',
   },
 
   sharing: {
     websiteUrl: typeof window !== 'undefined' ? window.location.href : '',
-    ogTitle: 'The Wedding of Tanuj & Sudha — Official Invitation',
-    ogDescription: "Join us to celebrate Tanuj and Sudha's wedding on 25 November 2026 in Thekma.",
-    whatsappMessageTemplate: `✨ *WEDDING INVITATION* ✨\n\n॥ श्री गणेशाय नमः ॥\n\nTogether with our families, we joyfully invite you to celebrate the wedding of\n\n*Tanuj Singh & Sudha Singh*\n\n📅 *Wedding:* Wednesday, 25th November 2026\n📍 *Venue:* Shiddhivinayak Marriage Hall, Thekma\n\nPlease view the wedding itinerary, venue details, and RSVP through our invitation:\n{URL}\n\nWe look forward to celebrating with you! 🙏`,
+    ogTitle: 'The Wedding of Sudha & Tanuj — Official Invitation',
+    ogDescription: "Join us to celebrate Sudha and Tanuj's wedding on 25 November 2026 in Thekma.",
+    whatsappMessageTemplate: `✨ *WEDDING INVITATION* ✨\n\n॥ श्री गणेशाय नमः ॥\n\nTogether with our families, we joyfully invite you to celebrate the wedding of\n\n*Sudha Singh & Tanuj Singh (R.P.)*\n\n📅 *Wedding:* Wednesday, 25th November 2026\n📍 *Venue:* Shiddhivinayak Marriage Hall, Thekma\n\nPlease view the wedding itinerary, venue details, and RSVP through our invitation:\n{URL}\n\nWe look forward to celebrating with you! 🙏`,
   },
 
   contact: {

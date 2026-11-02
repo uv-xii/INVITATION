@@ -43,7 +43,7 @@ export const ShareInvitation: React.FC<ShareInvitationProps> = ({
       try {
         await navigator.share({
           title: weddingConfig.sharing.ogTitle,
-          text: `Together with our families, we invite you to the wedding of ${weddingConfig.couple.groom.firstName} & ${weddingConfig.couple.bride.firstName}!`,
+          text: `Together with our families, we invite you to the wedding of ${weddingConfig.couple.bride.firstName} & ${weddingConfig.couple.groom.firstName}!`,
           url: inviteUrl,
         });
       } catch (err) {
@@ -83,7 +83,7 @@ export const ShareInvitation: React.FC<ShareInvitationProps> = ({
         We Can't Wait To Celebrate With You
       </h2>
       <p className="font-script text-3xl sm:text-4xl text-gold mt-2">
-        {weddingConfig.couple.groom.firstName} &amp; {weddingConfig.couple.bride.firstName}
+        {weddingConfig.couple.bride.firstName} &amp; {weddingConfig.couple.groom.firstName}
       </p>
       <p className="font-serif text-sm sm:text-base text-champagne/90 mt-1">
         {weddingConfig.weddingDetails.displayDate} • {weddingConfig.venue.city}
@@ -170,7 +170,7 @@ export const ShareInvitation: React.FC<ShareInvitationProps> = ({
           <p className="flex items-center justify-center space-x-1.5 mb-2">
             <span>Crafted with devotion for</span>
             <Heart size={12} className="text-gold fill-gold" />
-            <span className="text-gold font-bold">{weddingConfig.couple.groom.fullName} &amp; {weddingConfig.couple.bride.fullName}</span>
+            <span className="text-gold font-bold">{weddingConfig.couple.bride.fullName} &amp; {weddingConfig.couple.groom.fullName}</span>
           </p>
           <p className="text-[11px] text-ivory/40">
             A traditional wedding invitation • © 2026

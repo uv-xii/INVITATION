@@ -2,7 +2,7 @@
 
 A cinematic, interactive, and mobile-first digital wedding invitation website built with **React 18**, **TypeScript**, **Vite**, **Tailwind CSS**, **Framer Motion**, and **MongoDB**.
 
-Tailored for Tanuj Singh (R.P.) and Sudha Singh, with original couple photographs, a click-to-open wedding seal, scroll-linked portraits, a live countdown, the Haldi → Mehendi → Wedding → Vidai itinerary, venue maps, WhatsApp-enabled RSVP, visitor analytics, and floating heart animations.
+Tailored for Sudha Singh and Tanuj Singh (R.P.), with original couple photographs, a click-to-open wedding seal, scroll-linked portraits, a live countdown, the Haldi → Mehendi → Wedding → Vidai itinerary, venue maps, WhatsApp-enabled RSVP, visitor analytics, and floating heart animations.
 
 ---
 

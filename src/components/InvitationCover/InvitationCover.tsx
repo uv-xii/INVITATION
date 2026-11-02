@@ -87,14 +87,14 @@ export const WeddingOpening: React.FC<WeddingOpeningProps> = ({ onOpen, onOpenSt
 
           {/* 3, 4, 5, 6, 7: Couple Names, Invitation Message & Wedding Date */}
           <div className="flex flex-col items-center my-auto py-2">
-            {/* Groom's Name */}
+            {/* Bride's Name */}
             <motion.h1
               initial={{ opacity: 0, x: -30 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.3 }}
               className="font-serif text-4xl sm:text-6xl md:text-7xl text-gold tracking-normal leading-none font-medium"
             >
-              {weddingConfig.couple.groom.firstName}
+              {weddingConfig.couple.bride.firstName}
             </motion.h1>
 
             {/* Decorative Ampersand */}
@@ -111,14 +111,14 @@ export const WeddingOpening: React.FC<WeddingOpeningProps> = ({ onOpen, onOpenSt
               <div className="h-[1px] w-8 sm:w-16 bg-gradient-to-l from-transparent to-gold" />
             </motion.div>
 
-            {/* Bride's Name */}
+            {/* Groom's Name */}
             <motion.h1
               initial={{ opacity: 0, x: 30 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.7 }}
               className="font-serif text-4xl sm:text-6xl md:text-7xl text-gold tracking-normal leading-none font-medium"
             >
-              {weddingConfig.couple.bride.firstName}
+              {weddingConfig.couple.groom.firstName}
             </motion.h1>
 
             {/* Invitation Message */}

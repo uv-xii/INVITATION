@@ -80,21 +80,6 @@ export const CoupleScrollSection: React.FC = () => {
     [0, 0.65, 1],
     prefersReducedMotion
       ? [
-          -finalOffset - portraitCenterOffset,
-          -finalOffset - portraitCenterOffset,
-          -finalOffset - portraitCenterOffset,
-        ]
-      : [
-          -edgeOffset - portraitCenterOffset,
-          -finalOffset - portraitCenterOffset,
-          -finalOffset - portraitCenterOffset,
-        ],
-  );
-  const brideX = useTransform(
-    animationProgress,
-    [0, 0.65, 1],
-    prefersReducedMotion
-      ? [
           finalOffset - portraitCenterOffset,
           finalOffset - portraitCenterOffset,
           finalOffset - portraitCenterOffset,
@@ -103,6 +88,21 @@ export const CoupleScrollSection: React.FC = () => {
           edgeOffset - portraitCenterOffset,
           finalOffset - portraitCenterOffset,
           finalOffset - portraitCenterOffset,
+        ],
+  );
+  const brideX = useTransform(
+    animationProgress,
+    [0, 0.65, 1],
+    prefersReducedMotion
+      ? [
+          -finalOffset - portraitCenterOffset,
+          -finalOffset - portraitCenterOffset,
+          -finalOffset - portraitCenterOffset,
+        ]
+      : [
+          -edgeOffset - portraitCenterOffset,
+          -finalOffset - portraitCenterOffset,
+          -finalOffset - portraitCenterOffset,
         ],
   );
   const getNameOffset = (x: number) => {

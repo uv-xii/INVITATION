@@ -34,13 +34,13 @@ export const Venue: React.FC = () => {
             <div className="md:col-span-5 relative min-h-[260px] md:min-h-full overflow-hidden bg-burgundy-deep">
               <img
                 src={venue.photo}
-                alt={`${weddingConfig.couple.groom.firstName} and ${weddingConfig.couple.bride.firstName}`}
+                alt={`${weddingConfig.couple.bride.firstName} and ${weddingConfig.couple.groom.firstName}`}
                 className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-700"
                 loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent md:hidden" />
               <div className="absolute bottom-3 left-3 text-ivory text-xs font-serif uppercase tracking-widest bg-burgundy-dark/80 px-3 py-1 rounded-full border border-gold/40">
-                Tanuj &amp; Sudha
+                Sudha &amp; Tanuj
               </div>
             </div>
 

@@ -228,7 +228,7 @@ export const Blessings: React.FC = () => {
                   rows={4}
                   value={message}
                   onChange={(e) => setMessage(e.target.value.slice(0, MAX_CHARS))}
-                  placeholder={`Share your loving wishes, prayers, or memories for ${weddingConfig.couple.groom.firstName} and ${weddingConfig.couple.bride.firstName}...`}
+                  placeholder={`Share your loving wishes, prayers, or memories for ${weddingConfig.couple.bride.firstName} and ${weddingConfig.couple.groom.firstName}...`}
                   className="w-full px-4 py-2.5 rounded-xl border border-gold/40 bg-ivory/40 text-sm focus:outline-none focus:border-burgundy focus:ring-1 focus:ring-burgundy transition-all resize-none"
                 />
               </div>
@@ -304,7 +304,7 @@ export const Blessings: React.FC = () => {
               </div>
             ) : blessings.length === 0 ? (
               <div className="py-12 text-center text-maroon/70 text-sm font-serif bg-white/60 rounded-2xl border border-gold/30 p-6">
-                Be the first to leave your warm blessings for {weddingConfig.couple.groom.firstName} and {weddingConfig.couple.bride.firstName}!
+                Be the first to leave your warm blessings for {weddingConfig.couple.bride.firstName} and {weddingConfig.couple.groom.firstName}!
               </div>
             ) : (
               <div className="space-y-3.5 max-h-[580px] overflow-y-auto pr-1">

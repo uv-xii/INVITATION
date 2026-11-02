@@ -131,7 +131,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenShareModal, totalVisitors 
           <div className="flex flex-col space-y-4">
             <div className="text-center pb-4 border-b border-gold/20">
               <span className="font-script text-3xl text-gold">
-                {weddingConfig.couple.groom.firstName} &amp; {weddingConfig.couple.bride.firstName}
+                {weddingConfig.couple.bride.firstName} &amp; {weddingConfig.couple.groom.firstName}
               </span>
               <p className="text-xs text-champagne/80 tracking-widest mt-1 font-serif">
                 {weddingConfig.weddingDetails.displayDate}

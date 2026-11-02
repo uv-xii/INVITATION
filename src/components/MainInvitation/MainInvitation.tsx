@@ -60,31 +60,6 @@ export const MainInvitation: React.FC = () => {
               transition={{ delay: 0.2, duration: 0.8 }}
               className="flex flex-col items-center justify-center space-y-2"
             >
-              {/* Groom */}
-              <div className="flex flex-col items-center">
-                <span className="text-xs sm:text-sm font-sans uppercase tracking-widest text-gold-dark font-medium">
-                  {weddingConfig.couple.groom.title}
-                </span>
-                <h2 className="font-script text-5xl sm:text-6xl md:text-7xl text-burgundy tracking-wide">
-                  {weddingConfig.couple.groom.fullName}
-                </h2>
-                <span className="text-xs sm:text-sm text-maroon/80 font-serif">
-                  Son of {weddingConfig.couple.groom.parents.father} &amp; {weddingConfig.couple.groom.parents.mother}
-                </span>
-                <span className="max-w-sm text-xs text-maroon/70 font-serif">
-                  {weddingConfig.couple.groom.parents.residence}
-                </span>
-              </div>
-
-              {/* Decorative Ampersand */}
-              <div className="flex items-center justify-center my-3">
-                <div className="h-[1px] w-12 sm:w-20 bg-gold/50" />
-                <span className="font-script text-3xl sm:text-4xl text-gold mx-4">
-                  weds
-                </span>
-                <div className="h-[1px] w-12 sm:w-20 bg-gold/50" />
-              </div>
-
               {/* Bride */}
               <div className="flex flex-col items-center">
                 <span className="text-xs sm:text-sm font-sans uppercase tracking-widest text-gold-dark font-medium">
@@ -98,6 +73,31 @@ export const MainInvitation: React.FC = () => {
                 </span>
                 <span className="max-w-sm text-xs text-maroon/70 font-serif">
                   {weddingConfig.couple.bride.parents.residence}
+                </span>
+              </div>
+
+              {/* Decorative Ampersand */}
+              <div className="flex items-center justify-center my-3">
+                <div className="h-[1px] w-12 sm:w-20 bg-gold/50" />
+                <span className="font-script text-3xl sm:text-4xl text-gold mx-4">
+                  weds
+                </span>
+                <div className="h-[1px] w-12 sm:w-20 bg-gold/50" />
+              </div>
+
+              {/* Groom */}
+              <div className="flex flex-col items-center">
+                <span className="text-xs sm:text-sm font-sans uppercase tracking-widest text-gold-dark font-medium">
+                  {weddingConfig.couple.groom.title}
+                </span>
+                <h2 className="font-script text-5xl sm:text-6xl md:text-7xl text-burgundy tracking-wide">
+                  {weddingConfig.couple.groom.fullName}
+                </h2>
+                <span className="text-xs sm:text-sm text-maroon/80 font-serif">
+                  Son of {weddingConfig.couple.groom.parents.father} &amp; {weddingConfig.couple.groom.parents.mother}
+                </span>
+                <span className="max-w-sm text-xs text-maroon/70 font-serif">
+                  {weddingConfig.couple.groom.parents.residence}
                 </span>
               </div>
             </motion.div>
